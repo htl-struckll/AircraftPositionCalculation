@@ -1,0 +1,2 @@
+﻿d=-x*tan(alpha)+y
+x=(d1-d2)/(k1-k2) (calc the intersection)

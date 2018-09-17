@@ -1,0 +1,35 @@
+﻿<Window x:Class="CalcAircraft.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CalcAircraft"
+        mc:Ignorable="d"
+        Title="Calculate position of Aircraft" Height="450" Width="800">
+    <Grid>
+        <TextBlock Margin="10,10,729,374" FontSize="15">X:</TextBlock>
+        <TextBox x:Name="FxTextBox" FontSize="15" Margin="37,10,661,374" ></TextBox>
+
+        <TextBlock Margin="10,50,729,334" FontSize="15">Y:</TextBlock>
+        <TextBox x:Name="FyTextBox" FontSize="15" Margin="37,50,661,338" ></TextBox>
+
+        <TextBlock Margin="10,90,717,294" FontSize="15">Degree:</TextBlock>
+        <TextBox x:Name="FdegreeTextBox" FontSize="15" Margin="37,114,661,274" ></TextBox>
+
+        <TextBlock Margin="10,176,729,208" FontSize="15">X:</TextBlock>
+        <TextBox x:Name="SxTextBox" FontSize="15" Margin="37,176,661,213" ></TextBox>
+
+        <TextBlock Margin="10,211,729,173" FontSize="15">Y:</TextBlock>
+        <TextBox x:Name="SyTextBox" FontSize="15" Margin="37,211,661,177" ></TextBox>
+
+        <TextBlock Margin="10,247,696,137" FontSize="15">Degree:</TextBlock>
+        <TextBox x:Name="SdegreeTextBox" FontSize="15" Margin="37,271,661,116" ></TextBox>
+
+        <TextBlock x:Name="PositionOutput" Margin="10,344,661,10" FontSize="15">Position:</TextBlock>
+
+
+        <Button Margin="722,384,22,5" Click="Ok_Click">Ok</Button>
+
+        <TextBlock Margin="154,10,22,40" TextAlignment="Center" Background="Aqua">Placeholder</TextBlock>
+    </Grid>
+</Window>
